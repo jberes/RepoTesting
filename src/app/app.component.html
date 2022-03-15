@@ -1,0 +1,15 @@
+<igx-navbar class="app-bar">
+  <ng-container>
+    <button igxButton="icon" igxRipple class="button_1">
+      <igx-icon>person</igx-icon>
+    </button>
+  </ng-container>
+  <div igxNavbarTitle class="navbar_title_bar">
+    <button igxButton="flat" igxRipple routerLink="/view1" class="button">View 1</button>
+    <button igxButton="flat" igxRipple routerLink="/view2" class="button">View 2</button>
+    <button igxButton="flat" igxRipple routerLink="/view3" class="button">View 3</button>
+  </div>
+</igx-navbar>
+<div class="view-container">
+  <router-outlet></router-outlet>
+</div>
