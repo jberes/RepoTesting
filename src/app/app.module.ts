@@ -8,7 +8,6 @@ import { IgxGridModule, IgxNavbarModule, IgxButtonModule, IgxRippleModule, IgxIc
 import { FormsModule } from '@angular/forms';
 import { View2Component } from './view2/view2.component';
 import { View3Component } from './view3/view3.component';
-import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,8 +26,7 @@ import { HttpClientModule } from '@angular/common/http';
     IgxNavbarModule,
     IgxButtonModule,
     IgxRippleModule,
-    IgxIconModule,
-    HttpClientModule
+    IgxIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
