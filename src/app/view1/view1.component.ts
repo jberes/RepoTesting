@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NorthwindSwaggerTestService } from '../services/northwind-swagger-test.service';
+import { DataSource1Service } from '../services/data-source1.service';
 
 @Component({
   selector: 'app-view1',
@@ -7,14 +7,14 @@ import { NorthwindSwaggerTestService } from '../services/northwind-swagger-test.
   styleUrls: ['./view1.component.scss']
 })
 export class View1Component implements OnInit {
-  public northwindSwaggerTestApiCustomers: any = null;
+  public dataSource1Table1: any = null;
 
   constructor(
-    private northwindSwaggerTestService: NorthwindSwaggerTestService,
+    private dataSource1Service: DataSource1Service,
   ) {}
 
   ngOnInit() {
     // depending on implementation, data subscriptions might need to be unsubbed later
-    this.northwindSwaggerTestService.getApiCustomers().subscribe(data => this.northwindSwaggerTestApiCustomers = data);
+    this.dataSource1Service.getData('Table 1').subscribe(data => this.dataSource1Table1 = data);
   }
 }

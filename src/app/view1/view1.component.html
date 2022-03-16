@@ -1,15 +1,14 @@
 <div class="group row">
-  <igx-grid [data]="northwindSwaggerTestApiCustomers" primaryKey="customerID" [autoGenerate]="false" displayDensity="cosy" height="100%" class="grid">
-    <igx-column header="customerID" field="customerID" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="customerID" [disablePinning]="false" [disableHiding]="false"></igx-column>
-    <igx-column header="companyName" field="companyName" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="companyName" [disablePinning]="false" [disableHiding]="false"></igx-column>
-    <igx-column header="contactName" field="contactName" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="contactName" [disablePinning]="false" [disableHiding]="false"></igx-column>
-    <igx-column header="contactTitle" field="contactTitle" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="contactTitle" [disablePinning]="false" [disableHiding]="false"></igx-column>
-    <igx-column header="address" field="address" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="address" [disablePinning]="false" [disableHiding]="false"></igx-column>
-    <igx-column header="city" field="city" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="city" [disablePinning]="false" [disableHiding]="false"></igx-column>
-    <igx-column header="region" field="region" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="region" [disablePinning]="false" [disableHiding]="false"></igx-column>
-    <igx-column header="postalCode" field="postalCode" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="postalCode" [disablePinning]="false" [disableHiding]="false"></igx-column>
-    <igx-column header="country" field="country" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="country" [disablePinning]="false" [disableHiding]="false"></igx-column>
-    <igx-column header="phone" field="phone" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="phone" [disablePinning]="false" [disableHiding]="false"></igx-column>
-    <igx-column header="fax" field="fax" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="fax" [disablePinning]="false" [disableHiding]="false"></igx-column>
+  <igx-grid [data]="dataSource1Table1?.value" primaryKey="CustomerID" [autoGenerate]="false" displayDensity="cosy" height="100%" class="grid">
+    <igx-column header="CustomerID" field="CustomerID" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="CustomerID" [disablePinning]="false" [disableHiding]="false"></igx-column>
+    <igx-column header="CompanyName" field="CompanyName" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="CompanyName" [disablePinning]="false" [disableHiding]="false"></igx-column>
+    <igx-column header="ContactName" field="ContactName" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="ContactName" [disablePinning]="false" [disableHiding]="false"></igx-column>
+    <igx-column header="ContactTitle" field="ContactTitle" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="ContactTitle" [disablePinning]="false" [disableHiding]="false"></igx-column>
+    <igx-column header="Address" field="Address" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="Address" [disablePinning]="false" [disableHiding]="false"></igx-column>
+    <igx-column header="City" field="City" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="City" [disablePinning]="false" [disableHiding]="false"></igx-column>
+    <igx-column header="PostalCode" field="PostalCode" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="PostalCode" [disablePinning]="false" [disableHiding]="false"></igx-column>
+    <igx-column header="Country" field="Country" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="Country" [disablePinning]="false" [disableHiding]="false"></igx-column>
+    <igx-column header="Phone" field="Phone" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="Phone" [disablePinning]="false" [disableHiding]="false"></igx-column>
+    <igx-column header="Fax" field="Fax" dataType="string" [sortable]="true" [filterable]="true" [searchable]="true" [selectable]="true" title="Fax" [disablePinning]="false" [disableHiding]="false"></igx-column>
   </igx-grid>
 </div>
